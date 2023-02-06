@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="paymentOnline({orderId: '001',amount: 1000})">Thanh toan</button>
+    <script>
+        function paymentOnline(data) {
+
+            data = {
+                orderId: '002',
+                amount: 10000,
+                orderInfo: 'note'
+            };
+
+            fetch('http://localhost:3001/payment/vnpay', {
+                method: 'POST', // or 'PUT'
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    window.open(
+                         data.data,
+                        '_blank' 
+                    );
+                    console.log('Success:', data);
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</body>
+
+</html>

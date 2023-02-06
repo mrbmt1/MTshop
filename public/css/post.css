@@ -1,0 +1,177 @@
+html {
+    font-size: 65%;
+}
+.main-content {
+    background-color: #FFF9F6;
+    padding: 3rem 0;
+}
+
+.wrap-bg {
+    background-color: #FFF9F6;
+}
+
+.content-post {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+}
+.content-post .title-header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+.content-post .content-date {
+    padding-bottom: 1rem;
+ }
+.content-post .content-date .date {
+    font-size: 1.2rem;
+    color: #6B6B6B;
+    line-height: 1.3rem;
+ }
+
+.content-post .post-des { 
+    font-size: 1.5rem;
+    color: #6B6B6B;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+}
+.content-post .line-post{ 
+    background-color: orange;
+    height: 3px;
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+
+.main-post {
+
+}
+.main-post .title-main{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+.main-post .line-post{
+    background-color: orange;
+    height: 3px;
+    width: 8rem;
+    margin: 0 auto;
+}
+.main-post .block-post{ 
+    margin: 2rem 0;
+    position: relative;
+}
+.main-post .block-post .post-img{}
+.main-post .block-post .post-img img{
+    width: 25rem;
+    height: 15rem;
+}
+.block-post:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 0px 2px #ff6A52;
+}
+.main-post .block-post .post-description{
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 28%;
+    border-radius: 1rem;
+    top: 5%;
+    height: 90%;
+}
+.main-post .block-post .post-description .description{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.main-post .block-post .post-description .line-post{
+    margin: 0;
+}
+.main-post .block-post .post-description .date-post{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #6B6B6B;
+    line-height: 1.3rem
+}
+
+
+.right-section-content {
+    margin-top: 3rem;
+}
+.right-section-content .block-market-product {}
+.right-section-content .block-market-product .top-block-product{
+    background-color: #f2f2f2;
+    border: 1px solid whitesmoke;
+    padding: 1rem 2rem;
+    color: #222;
+}
+.right-section-content .block-market-product .top-block-product h5 {
+    font-size: 1.4rem;
+}
+.right-section-content .block-market-product .content-top-product {
+    background-color: #ffffff;
+    border: 1px solid #f2f2f2;
+}
+
+.right-section-content .block-market-product .content-top-product .list-post {
+    padding: 1rem 2rem;
+}
+
+.right-section-content .block-market-product .content-top-product .list-post .list-items-post {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.right-section-content .block-market-product .content-top-product .list-post .list-items-post .items-post {
+    color: #222;
+}
+
+.block-content-product {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+   
+}
+
+.margin-block {
+    margin: 2rem 0;
+}
+
+.block-content-product .img-product{
+    
+}
+
+.block-content-product .img-product img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 7rem;
+}
+
+.title-product {
+    margin-left: 2rem;
+}
+
+.title-product .list-intro-product .items-intro-product {
+    font-size: 1.2rem;
+    color: #6B6B6B;
+    margin-top: 5px;
+}
+
+.title-product .list-intro-product .items-intro-product span {
+    color: black;
+    font-weight: bold;
+}
+
+.right-section-content .add-post a{
+    font-size: 1.2rem;
+    background-color: #ff6A52;
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
